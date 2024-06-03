@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* image section */
+
+.background_image{
+    background-image: url(../img/spons.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+
+.background_image h1{
+    color: aliceblue;
+    font-size: 8vw;
+
+}
+
+.sponsor{
+    position:absolute;
+    bottom: 38px;
+    width: 50%;
+    height: 9vh;
+    border-radius: 25px;
+    padding: 2px;
+    color: #000000;
+    background-color:#76ABAE;
+    font-size: 20px;
+    
+    
+}
+
+button:hover{
+    background-color:#125d61;
+    color: #EEEEEE;
+    cursor: pointer;
+    
+}
+
+/* steps section  */
+
+.content{
+    background-color:#222831;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+
+
+}
+
+.heading{
+    margin: 3vw 0 2vw 0;
+    font-size: 50px;
+    color: #EEEEEE;
+}
+
+.steps{
+    background-color: #31363F;
+    width: 70%;
+    margin-bottom: 50px;
+    
+
+}
+     
+.steps ol{
+    padding: 30px 30px 30px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 30px;
+    color: #EEEEEE;
+
+}
+
+/* Card section */
+
+.top_slide{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: #b3a8a8;
+}
+
+.slide_container{
+    max-width: 95%;
+    width: 100%;
+    background-color: #b3a8a8;
+    padding: 40px 0;
+    
+}
+
+.slide_content{
+   margin: 0 10px;
+   
+   
+}
+
+
+
+
+.card{
+    /* width: 310px; */
+    /* height: 460px; */
+    background-color: #125d61;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid black;
+    /* margin: 5px; */
+}
+
+ .image_content img{
+    width: 90%;
+    height: 40%;
+    border-radius: 10%;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.image_content{
+    background-color: #222831;
+}
+ 
+.card_content{
+   position: relative;
+}
+
+.card_content .name{
+    margin: 10px;
+    
+}
+
+.discription{
+    padding: 0 5px;
+    margin-bottom: 5px;
+    
+}
+
+.donate{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+
+/* How Sponsorship works */
+
+
+
+.work{
+    background-color: #222831;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+}
+
+.work>h2{
+    padding-top: 25px;
+    color: #EEEEEE;
+    font-size: 50px;
+}
+
+
+
+.spon_work{
+    width: 60vw;
+    
+}
+
+.spon_work p{
+    color: #EEEEEE;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media (max-width:600px) {
+
+    .background_image{
+       
+        height: 40vh;
+    }
+
+    .sponsor{
+       position: absolute;
+       bottom: 10px;   
+    }
+    
+
+    .background_image h1{
+        font-size: 13vw;
+    
+    }
+
+    .content{
+      
+        width: 100%;
+        height: 100%;
+    }
+
+    .heading{
+        text-align: center;
+        margin: 10px;   
+    }
+
+    .steps{
+        width: 80%;
+        margin-bottom: 20px;
+    
+    }
+
+         
+ }
